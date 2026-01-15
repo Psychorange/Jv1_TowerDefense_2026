@@ -58,11 +58,11 @@ PrefabInstance:
       objectReference: {fileID: 1033142324, guid: ecf4c7f75e412da4ca589c406d3ca8c7, type: 3}
     - target: {fileID: 8979410002054373570, guid: 8177b6a7613d5274ca60a9452ed12234, type: 3}
       propertyPath: HpMax
-      value: 20
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8979410002054373570, guid: 8177b6a7613d5274ca60a9452ed12234, type: 3}
       propertyPath: timeToPath
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
