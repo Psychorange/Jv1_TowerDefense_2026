@@ -161,4 +161,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b31b7eade32b2c4b89651d645737222, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerContainer
-  towerPrice: 15
+  towerPrice: 50

@@ -17,13 +17,13 @@ public class EnemyContainer : MonoBehaviour
     {
         myHpManager.maxHP = HpMax;
         mySplineAnimate.Container = FindFirstObjectByType<SplineContainer>();
-        mySplineAnimate.Duration = timeToPath + Random.Range(-3,3);
+        mySplineAnimate.Duration = timeToPath;
         mySplineAnimate.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 }
