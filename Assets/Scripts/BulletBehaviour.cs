@@ -9,10 +9,10 @@ public class BulletBehaviour : MonoBehaviour
 
     void Update()
     {
-        if (targetEnemy == null)
-        {
-               Destroy(gameObject);
-        }
+        // if (targetEnemy == null)
+        // {
+        //       Destroy(gameObject);
+        // }
         transform.position = Vector3.MoveTowards(transform.position, targetEnemy.transform.position, speed);    
     }
 
